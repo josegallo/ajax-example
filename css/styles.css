@@ -42,20 +42,21 @@ header button.active {
 	display: inline-block;
 }
 
-.contenedor {
+.container {
 	width: 90%;
 	max-width: 1000px;
 	margin: auto;
 }
 
-.formulario {
+
+.form {
 	display: flex;
 	justify-content: space-between;
 	margin-bottom: 20px;
 	transition: .3s ease all;
 }
 
-.formulario input {
+.form input {
 	height: 40px;
 	line-height: 40px;
 	width: 100%;
@@ -63,7 +64,8 @@ header button.active {
 	border: none;
 	margin: 0 px;
 }
-.formulario .btn {
+
+.form .btn {
 	background: #3498db;
 	height: 40px;
 	line-height: 40px;

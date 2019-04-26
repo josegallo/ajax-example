@@ -1,7 +1,7 @@
 
 window.onload = function() {
 
-    var btn = document.getElementById('btn_cargar_usuarios');
+    var btn = document.getElementById('btn_download_users');
     var loader = document.getElementById("loader");
 
     btn.addEventListener('click',function () {
@@ -16,7 +16,7 @@ window.onload = function() {
         request.onload = function () {
             //console.log(JSON.parse(request.responseText));
             //retrieve data with JSON 
-            data = JSON.parse(request.responseText);
+            var data = JSON.parse(request.responseText);
             for ( i = 0; i < data.length; i++) {
                     var element = document.createElement('tr');
                     element.innerHTML += "<td>" + data[i]._id +     "</td>";
@@ -24,7 +24,7 @@ window.onload = function() {
                     element.innerHTML += "<td>" + data[i].age +     "</td>";
                     element.innerHTML += "<td>" + data[i].country + "</td>";
                     element.innerHTML += "<td>" + data[i].email +   "</td>";
-                    document.getElementById('tabla').appendChild(element);      
+                    document.getElementById('table').appendChild(element);      
             }
         }
         //prepare statuses infos and state change info of request

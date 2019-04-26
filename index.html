@@ -8,15 +8,15 @@
 	<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-	<div class="contenedor">
+	<div class="container">
 		<header>
 			<h1>Tabla de Usuarios</h1>
 			<div>
-				<button id = "btn_cargar_usuarios" class="btn active">Cargar Usuarios</button>
+				<button id = "btn_download_users" class="btn active">Cargar Usuarios</button>
 			</div>
 		</header>
 		<main>
-			<form action="" method="" id="formulario" class="formulario">
+			<form action="" method="" id="formulario" class = 'form'>
 				<input type="text" name="nombre" id="nombre" placeholder="Nombre">
 				<input type="text" name="edad" id="edad" placeholder="Edad">
 				<input type="text" name="pais" id="pais" placeholder="Pais">
@@ -26,7 +26,7 @@
 			<div class="error_box" id="error_box">
 				<p>Se ha producido un error.</p>
 			</div>
-			<table id="tabla" class="tabla">
+			<table id="table" class="table">
 				<tr>
 					<th>ID</th>
 					<th>Nombre</th>
@@ -38,7 +38,6 @@
 			<div class="loader" id="loader"></div>
 		</main>
 	</div>
-	<script src="js/json.js"></script>
 	<script src="js/ajax.js" ></script>
 </body>
 </html>
