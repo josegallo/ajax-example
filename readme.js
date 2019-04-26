@@ -1,0 +1,1 @@
+# Retrive JSON from https://next.json-generator.com/4ksYUJ29I through API Using AJAX with Javascript
