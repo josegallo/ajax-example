@@ -8,7 +8,7 @@ header('Content-type: applicaton/json; charset=utf-8');
 //connection to bbdd user_ajax
 $conn = new mysqli('localhost', 'root','', 'users_ajax');
 if ($conn->connect_errno) {
-    $response = ['error' => true];
+    $answer = ['error' => true];
 } else {
     //retrieve all the users
     $conn->set_charset("utf8");
