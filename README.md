@@ -1,1 +1,3 @@
-# Retrive JSON from https://next.json-generator.com/4ksYUJ29I through API Using AJAX with Javascript
+# Retrive JSON from API or from PHP with AJAX
+# Show data from JSON on web with javascript
+
