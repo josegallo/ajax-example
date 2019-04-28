@@ -8,7 +8,8 @@ window.onload = function() {
         // AJAX Request with javascript
         var request = new XMLHttpRequest();
         // request.open('GET', 'https://next.json-generator.com/api/json/get/4ksYUJ29I');
-        request.open('GET', 'php/users.php');
+        // request.open('GET', 'php/users.php')
+        request.open('GET', 'php/read-data.php');
         // sprite while data are not yet retrieve
         loader.classList.add('active');
 
