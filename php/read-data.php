@@ -15,7 +15,7 @@ if ($conn->connect_errno) {
     $sql = "SELECT * FROM users"; 
     $result = $conn->query($sql);
     if ($result->num_rows) {
-        //create emtpy array 
+        //create empty array 
         $answer = [];
         //fetch assocc retrieves 1 array per row (user)
         while ($row = $result->fetch_assoc()) {
